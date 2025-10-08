@@ -82,10 +82,12 @@ Run installations in both backend and frontend directories:
 # Backend Installation
 cd backend
 npm install
+nodemon server.js
 
 # Frontend Installation
-cd ../frontend
+cd frontend
 npm install
+npm run dev
 ```
 
 ### 3️⃣ Environment Configuration
@@ -164,7 +166,7 @@ All routes are prefixed with:
 ---
 
 🧾 **Example Base URL:**  
-`http://localhost:5001/api/employees`
+`http://localhost:5001/api/employee`
 
 ---
 ### 🎥 Project Video
